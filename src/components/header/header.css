@@ -1,0 +1,63 @@
+.main-header {
+  background-color: #FFF;
+  padding-top: 10px;
+  text-align: center;
+  color: #4c4c4c;
+  box-shadow: 0px 0px 8px #4c4c4c;
+}
+
+.main-header h1 {
+  font-size: 28px;
+  color: #4c4c4c;
+  padding: 10px;
+  text-align: center;
+}
+
+.main-header p {
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-position: 50% 50%;
+  background-size: cover;
+  margin: 0 auto;
+  background-image: url('profile-picture.jpg');
+}
+
+.main-menu {
+  text-align: center;
+}
+
+.main-menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-menu li {
+  width: 100%;
+  list-style: none;
+}
+
+.main-menu li a {
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  display: block;
+  color: #4c4c4c;
+}
+
+.menu-item-active {
+  color: orange !important;
+  border-bottom: 2px solid orange;
+}
+
+@media (max-width: 400px) {
+  .main-header p {
+    max-width: 300px;
+  }
+}

@@ -1,0 +1,26 @@
+.main-footer {
+  text-align: center;
+  background-color: #292929;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.social-media {
+  padding-top: 15px;
+}
+
+.social-media li {
+  display: inline-block;
+}
+
+.social-media a {
+  padding: 10px;
+  font-size: 34px;
+  color: #fff !important;
+}
+
+.social-media a:hover {
+  color: orange !important;
+}

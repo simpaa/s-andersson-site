@@ -1,0 +1,11 @@
+.center {
+    text-align: center;
+}
+
+.project-image {
+    width: 200px;
+    border-radius: 35px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}

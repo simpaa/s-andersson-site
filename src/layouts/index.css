@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #eeeeee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.site-wrapper {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 150px;
+}
+
+h1, h2, h3, h4, h5, h6, ul {
+  padding-top: 4px;
+  padding-left: 0;
+  padding-bottom: 4px;
+  padding-left: 0;
+  margin: 0;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: orange;
+}
+
+::selection {
+  color: #fff;
+  background: orange;
+}
