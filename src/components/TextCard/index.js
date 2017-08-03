@@ -1,9 +1,17 @@
 import React from 'react';
 
-import './TextCard.css';
+const style = {
+  backgroundColor: '#fff',
+  maxWidth: '700px',
+  margin: '20px auto',
+  color: '#4c4c4c',
+  padding: '15px',
+  borderRadius: '4px',
+  boxShadow: '0px 0px 8px #4c4c4c'
+}
 
 const TextCard = ({ children }) => (
-    <article className="text-card">
+    <article style={style}>
         {children}
     </article>
 );
